@@ -10,7 +10,7 @@ module.exports = {
     SESSION_ID: process.env.SESSION_ID || "",  // Your bot's session ID (keep it secure)
     PREFIX: process.env.PREFIX || ".",         // Command prefix (e.g., "., / ! * - +")
     BOT_NAME: process.env.BOT_NAME || "SUBZERO-MD",  // Bot's display name
-    MODE: process.env.MODE || "public",        // Bot mode: public/private/group/inbox
+    MODE: process.env.MODE || "private",        // Bot mode: public/private/group/inbox
     REPO: process.env.REPO || "https://github.com/mrfrankofcc/SUBZERO-MD",  // Bot's GitHub repo
 
     // ===== OWNER & DEVELOPER SETTINGS =====
@@ -47,7 +47,7 @@ module.exports = {
 
     // ===== BOT BEHAVIOR & APPEARANCE =====
     DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ғʀᴀɴᴋ*",  // Bot description
-    PUBLIC_MODE: process.env.PUBLIC_MODE || "true",              // Allow public commands?
+    PUBLIC_MODE: process.env.PUBLIC_MODE || "false",              // Allow public commands?
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",        // Show bot as always online?
-    AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true", // React to status updates?
+    AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false", // React to status updates?
 };
